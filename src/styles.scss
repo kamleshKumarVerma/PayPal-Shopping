@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+/* normalize.css is added in angular-cli.json */
+
+
+/* ====================
+      Global CSS 
+ ====================== */
+
+body {
+    background-color: #ebeced !important;
+    overflow-x: hidden;
+}
+
+.centerLoading {
+    display : block;
+    position : fixed;
+    z-index: 100;
+    background-image : url(./assets/images/center-loading.gif);
+    background-repeat : no-repeat;
+    background-position : center;
+    left : 0;
+    bottom : 0;
+    right : 0;
+    top : 0;
+}
+
+.data-loading {
+    display : block;
+    position : fixed;
+    z-index: 100;
+    background-image : url(./assets/images/data-loading.gif);
+    background-repeat : no-repeat;
+    background-position : center;
+    left : 0;
+    bottom : 0;
+    right : 0;
+    top : 0;
+}
+
+.loading-more-data {
+    background-image : url(./assets/images/loading-more-data.gif);
+    background-repeat : no-repeat;
+    background-position : center;
+    padding: 28px;
+}
+
+.centered {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-loader {
+  background: url(./assets/images/image-loader.gif) center no-repeat;
+}

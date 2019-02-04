@@ -1,0 +1,48 @@
+.footer{
+	background-color: #222;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 5px 100px 5px 100px;
+	opacity : 0.6;
+	position:fixed;
+    left:0px;
+    bottom:0px;
+    z-index: 100;
+}
+
+.footer .footer-company-name {
+	color:  #ffffff;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	width: 100%;
+}
+
+.padding-zero {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 50px;
+}
+
+.social-icon {
+    font-size: 14px;
+    margin: 10px;
+    color: #fff;
+}
+
+.social-icons {
+	display: block;
+}
+
+.terms-and-conditions {
+	margin-left: 5px;
+    color: white;
+}
+
+@media (max-width: 1199px) {
+	.social-icons {
+		display: none;
+	}
+}
+
