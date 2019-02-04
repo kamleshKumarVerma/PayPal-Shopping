@@ -18,7 +18,7 @@ const indexRoute: Route = {
 const routes: Routes = [
 	{path: "home", component: HomeComponent},
 	{path: "cart", component: CartComponent},
-	{path: "payment-done", component: PaymentDoneComponent},
+	{path: "payment-done/:transactionId", component: PaymentDoneComponent},
 	indexRoute,
     fallBackRoute
 ];

@@ -125,8 +125,8 @@ export class CartComponent implements OnInit {
 			onAuthorize:  (data, actions) => {
 				return actions.payment.execute()
 					.then( (data) => {
-						console.log("This is the data ", data);
-						this.router.navigate(['payment-done']);
+						/* Redirecting to the payment-done page after successfully payment */
+						this.router.navigate(['payment-done/' + data.id]);
 				});
 			}
 		}, '#paypal-button-container');
